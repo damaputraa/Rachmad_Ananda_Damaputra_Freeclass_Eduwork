@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+body {
+
+}
+
+.content {
+	width: 70%;
+	padding: 40px 0;
+	display: flex;
+	align-items: center;
+}
+
+.content .mockup .form{
+flex: 1;
+
+}
+
+.content .form {
+	flex: 1;
+	background-color: antiquewhite;
+	text-align: center;
+	justify-items: center;
+	height: 400px;
+	
+}
+
+.content .form h1{
+	font-family: 'Sofia', cursive;
+	font-size: 35px;
+	letter-spacing: 3px;
+}
+
+
+
