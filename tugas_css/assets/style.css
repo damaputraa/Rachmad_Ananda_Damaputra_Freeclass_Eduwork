@@ -27,6 +27,7 @@ body {
 	justify-items: center;
 	height: 700px;
 	border: 2px rgb(216, 216, 216) solid;
+	padding: 0 2rem;
 	
 }
 
@@ -34,18 +35,75 @@ body {
 	font-family: 'Sofia', cursive;
 	font-size: 35px;
 	letter-spacing: 3px;
+	margin-bottom: 2rem;
+}
+
+.form input[type=text],input[type=password]  {
+	background-color: #fafafa;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+
+.form input[type=submit] {
+	width: 100%;
+		background-color: #237bff;
+		color: white;
+		padding: 14px 20px;
+		margin: 8px 0;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+		font-size: 18px;
+	}
+	
+	
+.form input[type=submit]:hover {
+		background-color: #19c7fc;
+	}
+	
+.form h5 {
+	width: 100%; 
+	text-align: center; 
+	border-bottom: 1px solid #8e8e8e; 
+	line-height: 0.1em;
+	margin: 2rem 0 ; 
+	color: rgb(116, 116, 116);
+	font-family: Arial;
+} 
+
+.form h5 span { 
+	background-color: white;
+	padding:0 10px; 
+}
+
+.form p a{
+	color: blue;
+	text-decoration: none;
+	font-family: Arial;
+	font-weight: 600;
 }
 
 .footer {
 	margin: 50px 0;
 }
 
-.bawah p, a{
+.bawah p {
 	display: inline;
 	text-decoration: none;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	color: rgb(116, 116, 116);
 	padding: 0px 4px;
+}
+
+.bawah a {
+	text-decoration: none;
+	color: rgb(116, 116, 116);
 }
 
 .copyright {
