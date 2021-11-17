@@ -21,24 +21,28 @@ body {
 }
 
 .content .form {
+	height: 700px;
+}
+
+.content .form .instagram-login{
 	background-color: white;
 	width: 400px;
 	text-align: center;
 	justify-items: center;
-	height: 700px;
+	height: 450px;
 	border: 2px rgb(216, 216, 216) solid;
 	padding: 0 2rem;
 	
 }
 
-.content .form h1{
+.content .form .instagram-login h1{
 	font-family: 'Sofia', cursive;
 	font-size: 35px;
 	letter-spacing: 3px;
 	margin-bottom: 2rem;
 }
 
-.form input[type=text],input[type=password]  {
+.form .instagram-login input[type=text],input[type=password]  {
 	background-color: #fafafa;
 	width: 100%;
 	padding: 12px 20px;
@@ -50,7 +54,7 @@ body {
 	font-size: 12px;
 }
 
-.form input[type=submit] {
+.form .instagram-login input[type=submit] {
 	width: 100%;
 		background-color: #237bff;
 		color: white;
@@ -63,11 +67,11 @@ body {
 	}
 	
 	
-.form input[type=submit]:hover {
+.form .instagram-login input[type=submit]:hover {
 		background-color: #19c7fc;
 	}
-	
-.form h5 {
+
+.form .instagram-login h5 {
 	width: 100%; 
 	text-align: center; 
 	border-bottom: 1px solid #8e8e8e; 
@@ -77,16 +81,24 @@ body {
 	font-family: Arial;
 } 
 
-.form h5 span { 
+.form .instagram-login h5 span { 
 	background-color: white;
 	padding:0 10px; 
 }
 
-.form p a{
+.form .instagram-login .fb a{
 	color: blue;
 	text-decoration: none;
 	font-family: Arial;
 	font-weight: 600;
+}
+
+.form .instagram-login .lupa-pw a{
+	color: rgb(95, 95, 241);
+	font-size: 13px;
+	text-decoration: none;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 .footer {
